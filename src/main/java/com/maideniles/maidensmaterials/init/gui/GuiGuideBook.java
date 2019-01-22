@@ -133,11 +133,13 @@ public static final String[] PAGE20_P1_TEXT = {"","","","","","","","","","","",
 public static final String[] PAGE20_P2_TEXT = {"","","","","","","","","","","","","","","","and mix up grout, like so...","","","","","","","","","","","","","","",""};
 
 public static final String[] PAGE21_P1_TEXT = {"","","","","","","","","","","","","","","","","Grab a white concrete block, (you need to have a base to stick the tile to of course) and finally, "
-		+ "throw it all into the crafting grid.\n  ","","","","","","","","","","","","",""};
 
-public static final String[] PAGE22_P1_TEXT = {"","","","","","","","","","","","","","","","","Now you have 8 beautiful tiles, ready to be strewn about your base.\n \n  "
+		+ "throw it all into the crafting grid.\n\n Now you have 8 beautiful tiles, ready to be strewn about your base.  ","","","","","","","","","","","","",""};
+
+public static final String[] PAGE22_P1_TEXT = {"","","","","","","","","","","","","","","","",""
 		+ "There are six styles of tile, and they come in all of the fashionable gemstone colors: \n \n Amethyst, Moonstone, Jade, Labradorite, Jasper, Mica, Carnelian, Chalcopyrite, Citrine, Rose Quartz, "
-		+ "Sodalite, and Aventurine.", "","","","","","","","","","","","",""};
+		+ "Sodalite, and Aventurine.\n\n Note: Once they are placed, these can only be mined with Silk Touch.", "","","","","","","","","","","","",""};
+
 
 public static final String[] PAGE23_P1_TEXT = {"","","","","","","","","","","","","","","","","","","Speaking of colors, remember the colored clay we made earlier? We can use it to make bricks"
 		+ " to build with, and vases to hold pruned tree blossoms! ", "","","","","","","","","","",""};
@@ -190,7 +192,7 @@ public static final String[] PAGE35_P2_TEXT = {"","","","","","","","","","","",
 
 public static final String[] PAGE36_P1_TEXT = {"","","","","","","","","","","","","","","","","","","","","","","","","","",
 
-"The bookshelves, pressure plates and buttons all use the same recipe template as their vanilla countereparts. \n\n","","","",""};
+"The bookshelves, pressure plates and buttons all use the same recipe template as their vanilla countereparts, but with slabs, instead of planks. \n\n","","","",""};
 
 public static final String[] PAGE36_P2_TEXT = {"","","","","","","","","","","","","","","","","","","","","","","","","","","",
 

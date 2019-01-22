@@ -1,4 +1,99 @@
 Changelog:
+Build 2795:
+	tterrag: Fix potion remove event not always firing, add expiry event
+
+Build 2794:
+	tterrag: Clean up CraftingHelper constants loading API
+
+Build 2793:
+	tterrag: Fix crash from CraftingHelper due to FileSystem being closed early
+
+Build 2792:
+	tterrag:
+		added PotionHooks, closes #3867, #4375 (#4614)
+		* solved merge confilct
+		
+		* improved var names & removed tabs
+		
+		* Added spaces around !=
+		
+		* fixed typo
+
+Build 2791:
+	tterrag:
+		Add a hook for farmland watering (#4891)
+		* Add a FarmlandWaterCheckEvent to allow mods to override when Farmland
+		is watered or not
+		
+		* revert 1.12.2 json
+		
+		* Move the farmland patch to a ticket based instead of a event based
+		system
+		
+		* Minor changes
+		
+		* Faster isValid checks, faster validation/invalidation if the state did
+		not change, expand test mod to include a test for the validation system
+		
+		* remove isValid boolean flag, we can express it with the tick counter
+		
+		* Fix test mod resource warnings
+		
+		* Remove tick timeout, add a javadoc note to invalidate on chunk unload,
+		cleaned up test mod
+		
+		* Allow mods to provide custom handling to determine if a pos is valid
+		or not
+		
+		* Make SimpleTicket more simple, make register public so custom tickets
+		can be registered
+		
+		* Fixes for review
+		
+		* Add missing license headers
+		
+		* Use a weak hash set
+		
+		* Split up the map into smaller chunk based maps
+		
+		* Add missing license headers
+		
+		* Make MultiTicketManager more universal for custom implementations,
+		cleanup imports
+
+Build 2790:
+	tterrag:
+		Add methods to allow loading json constants outside of _constants
+		(#4975)
+		* add interface methods for loading json constants from an arbitary file
+		
+		
+		* use try-with-resources
+		
+		* don't make modders create jsoncontext, clean up resource use
+		
+		* very minor cleanup
+
+Build 2789:
+	tterrag:
+		Compute ASMDataTable submaps parallel, speeds up contructing mods
+		(#5246)
+		* Compute submaps parallel, speeds up contructing mods by a lot
+		
+		* Use stream API better
+
+Build 2788:
+	mezz: Add logging for data manager key registration errors (#5129)
+
+Build 2787:
+	mezz: Improve support for custom block path types (#5203)
+
+Build 2786:
+	mezz: Fix missing comments in configs created with annotations (#5189)
+
+Build 2785:
+	mezz: Allow items to control the rate of repair from mending (#5102)
+
 Build 2784:
 	mezz: Improve exception handling from server starting events (#5226)
 
